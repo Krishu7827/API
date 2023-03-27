@@ -119,7 +119,7 @@ router.delete("/delete", async(req,res)=>{
       res.status(400).send({"message":"You are not Logged"})
     }
 })
-
+console.log("ok")
  
   
   module.exports={router}
