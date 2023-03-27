@@ -4,6 +4,7 @@ const notesRouter = express.Router()
 let jwt=require("jsonwebtoken")
 notesRouter.use(express.json())
 console.log("ok")
+console.log("ok")
 notesRouter.get("/", async (req, res) => {
     const token=req.headers.authorization
     const decoded=jwt.verify(token,"masai")
