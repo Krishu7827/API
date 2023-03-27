@@ -9,7 +9,7 @@ require("dotenv").config()
 let app=express()
 app.use(cors())
 app.use(express.json())
-
+console.log("js")
 
 app.get("/",(req,res)=>{
   res.send("HOME PAGE")
